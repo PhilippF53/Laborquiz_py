@@ -6,7 +6,7 @@ class QuizLogic:
         self.questionnr = 0
         self.score = 0
         self.questions = questions
-        self.current_question = None
+        self.currentQuestion = None
     
     def hasNextQuestion(self):
         #Check if another Question is in the Quiz
@@ -14,14 +14,14 @@ class QuizLogic:
     
     def nextQuestion(self):
         #get the next Question from the list and return the Question Text
-        self.current_question = self.questions[self.questionnr]
+        self.currentQuestion = self.questions[self.questionnr]
         self.questionnr += 1
-        questionText = self.current_question.question
+        questionText = self.currentQuestion.question
         return f"Frage {self.questionnr}: {questionText}"
     
     def checkAnswer(self, userAnswer):
         #return boolean value if the given answer was correct or not
-        solution = self.current_question.solution
+        solution = self.currentQuestion.solution
         if userAnswer.lower() == solution.lower():
             self.score += 1
             return True

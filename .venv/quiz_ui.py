@@ -87,7 +87,12 @@ class QuizInterface:
     def buttons(self):
         #show the different buttons
         #first the Next button to move to the next question
-            
+        nextButton = Button(self.window, text="Next", command=self.nextButton, width=10, bg="green", fg="white", font=("ariel", 16, "bold"))
+        #place Button on screen
+        nextButton.place(x=350, y=460)
+        #initialize the Quit button to exit the App
+        quitButton = Button(self.window, text="Quit", command=self.window.destroy, width=5, bg="red", fg="white", font=("ariel", 16, "bold"))
+        quitButton.place(x=700, y=50)
         
     def displayResult(self):
         #display the result using a messagebox
