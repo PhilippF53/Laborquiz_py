@@ -12,7 +12,11 @@ question = json.load(data)
 questions = []
 for q in question['question']:
 #    print(q)
-    questions.append(Question(q['mode'], q['question'], q['solution'], q['choices'], q['information']))
+    choices=[]
+    for ans in q['incorrect_answers']:
+        choices.append(ans)
+    choices.append(q['solution'])
+    questions.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
 
 questionBank = []
 for quest in question['question']:
@@ -23,9 +27,11 @@ for quest in question['question']:
     solution = quest['solution']
     incorrect_answers = quest['incorrect_answers']
     information = quest['information']
+    #build the choices
     for ans in incorrect_answers:
         choices.append(ans)
     choices.append(solution)
+    
     #randomize the order of the answers
     shuffle(choices)
     newQuestion = Question(mode, question, solution, choices, information)

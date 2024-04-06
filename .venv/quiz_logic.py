@@ -4,7 +4,7 @@ class QuizLogic:
         self.questionnr = 0
         self.score = 0
         self.questions = questions
-        self.currentQuestion = None
+        self.currentQuestion = self.questions[self.questionnr]
     
     def hasNextQuestion(self):
         #Check if another Question is in the Quiz
