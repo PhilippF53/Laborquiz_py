@@ -17,9 +17,7 @@ class QuizInterface:
                                                      text="Question here",
                                                      width=680,
                                                      fill=THEME_COLOR,
-                                                     font=(
-                                                         'Ariel', 15, 'italic')
-                                                     )
+                                                     font=('Ariel', 15, 'italic'))
         self.canvas.grid(row=2, column=0, columnspan=2, pady=50)
         self.displayQuestion()
 
