@@ -10,9 +10,9 @@ question = json.load(data)
 
 #initialize List and fill it with Question Objects
 questions = []
-#for q in question['question']:
+for q in question['question']:
 #    print(q)
-#    questions.append(Question(q['mode'], q['question'], q['solution'], q['incorrect_answers'], q['information']))
+    questions.append(Question(q['mode'], q['question'], q['solution'], q['choices'], q['information']))
 
 questionBank = []
 for quest in question['question']:

@@ -1,5 +1,3 @@
-
-
 class QuizLogic:
     #Initialize QuizLogic Object
     def __init__(self, questions):

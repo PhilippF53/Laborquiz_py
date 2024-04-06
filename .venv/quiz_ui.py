@@ -62,7 +62,7 @@ class QuizInterface:
         val = 0
         self.userAnswer.set(None)
         #looping through answer options and filling text of radio buttons
-        for option in (self.quiz.currentQuestion.solution & self.quiz.currentQuestion.incorrect_answers):
+        for option in self.quiz.currentQuestion.choices:
             self.opts[val]['text'] = option
             self.opts[val]['value'] = option
             val += 1
@@ -101,6 +101,3 @@ class QuizInterface:
         incorrect = f"Incorrect: {incorrect}"
         
         messagebox.showinfo("Result", f"{correct}\n{incorrect}")
-            
-        
-        
