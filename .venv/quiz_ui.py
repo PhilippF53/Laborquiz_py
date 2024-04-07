@@ -30,7 +30,7 @@ class QuizInterface:
 
         #To show whether the answer is correct or wrong
         self.feedback = Label(self.window, pady=10, font=("ariel", 15, "bold"))
-        self.feedback.place(x=325, y=380)
+        self.feedback.place(relx=0.5, y=380, anchor="center")
 
         #Next, Quit and Info Button
         self.buttons()
@@ -98,13 +98,13 @@ class QuizInterface:
         #first the Next button to move to the next question
         nextButton = Button(self.window, text="Next", command=self.nextButton, width=10, bg="green", fg="white", font=("ariel", 16, "bold"))
         #place Button on screen
-        nextButton.place(x=350, y=460)
+        nextButton.place(relx=0.50, y=460, anchor="center")
         #initialize the Quit button to exit the App
         quitButton = Button(self.window, text="Quit", command=self.window.destroy, width=5, bg="red", fg="white", font=("ariel", 16, "bold"))
-        quitButton.place(x=20, y=460)
+        quitButton.place(relx=0.1, y=460, anchor="center")
         #initialize Information button
         infoButton = Button(self.window, text="Info", command=self.infoButton, width=5, bg="blue", fg="white", font=("ariel", 16, "bold"))
-        infoButton.place(x=730, y=460)
+        infoButton.place(relx=0.9, y=460, anchor="center")
         
     def displayResult(self):
         #display the result using a messagebox
