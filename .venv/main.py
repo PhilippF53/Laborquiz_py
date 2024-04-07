@@ -20,6 +20,7 @@ for q in question['question']:
     shuffle(choices)
     questions.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
 
+#randomize order of questions
 shuffle(questions)
 #finish by closing the file
 data.close()
