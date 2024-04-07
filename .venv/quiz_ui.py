@@ -1,7 +1,7 @@
 from tkinter import Tk, Canvas, StringVar, Label, Radiobutton, Button, messagebox
 from quiz_logic import QuizLogic
 
-THEME_COLOR = '#682738'
+THEME_COLOR = 'green'
 
 class QuizInterface:
 
@@ -72,6 +72,10 @@ class QuizInterface:
         if self.quiz.checkAnswer(self.userAnswer.get()):
             self.feedback["fg"] = "green"
             self.feedback["text"] = 'Correct answer!'
+        elif len(self.userAnswer.get()) == 0:
+            self.feedback["fg"] = "yellow"
+            self.feedback["text"] = 'Please select an answer'
+            exit()
         else:
             self.feedback["fg"] = "red"
             self.feedback["text"] = ('Ooops!\n'
@@ -84,6 +88,10 @@ class QuizInterface:
         else:
             self.displayResult()
             self.window.destroy()
+    
+    def infoButton(self):
+        info = self.quiz.currentQuestion.information
+        messagebox.showinfo("Information", message=f"{info}")
             
     def buttons(self):
         #show the different buttons
@@ -94,6 +102,9 @@ class QuizInterface:
         #initialize the Quit button to exit the App
         quitButton = Button(self.window, text="Quit", command=self.window.destroy, width=5, bg="red", fg="white", font=("ariel", 16, "bold"))
         quitButton.place(x=700, y=50)
+        #initialize Information button
+        infoButton = Button(self.window, text="Info", command=self.infoButton, width=5, bg="blue", fg="white", font=("ariel", 16, "bold"))
+        infoButton.place(x=700, y=460)
         
     def displayResult(self):
         #display the result using a messagebox
