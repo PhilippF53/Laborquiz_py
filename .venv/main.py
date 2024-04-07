@@ -16,8 +16,10 @@ for q in question['question']:
     for ans in q['incorrect_answers']:
         choices.append(ans)
     choices.append(q['solution'])
+    shuffle(choices)
     questions.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
-
+    
+"""
 questionBank = []
 for quest in question['question']:
     #build the question
@@ -36,12 +38,10 @@ for quest in question['question']:
     shuffle(choices)
     newQuestion = Question(mode, question, solution, choices, information)
     questionBank.append(newQuestion)
-    
+"""
+
 #finish by closing the file
 data.close()
 
-quiz = QuizLogic(questionBank)
+quiz = QuizLogic(questions)
 quizUI = QuizInterface(quiz)
-
-print("You've completed the quiz")
-print(f"Your final score was: {quiz.score}/{quiz.questionnr}")

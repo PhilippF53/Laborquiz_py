@@ -1,7 +1,7 @@
 from tkinter import Tk, Canvas, StringVar, Label, Radiobutton, Button, messagebox
 from quiz_logic import QuizLogic
 
-THEME_COLOR = '#375262'
+THEME_COLOR = '#682738'
 
 class QuizInterface:
 
@@ -39,7 +39,7 @@ class QuizInterface:
         self.window.mainloop()
         
     def displayQuestion(self):
-        qText = self.quiz.nextQuestion
+        qText = self.quiz.nextQuestion()
         self.canvas.itemconfig(self.questionText, text=qText)
         
     def radioButtons(self):
@@ -71,10 +71,10 @@ class QuizInterface:
         #check if answer is correct
         if self.quiz.checkAnswer(self.userAnswer.get()):
             self.feedback["fg"] = "green"
-            self.feedback["text"] = 'Correct answer! \U0001F44D'
+            self.feedback["text"] = 'Correct answer!'
         else:
             self.feedback["fg"] = "red"
-            self.feedback["text"] = ('\u274E Ooops!\n'
+            self.feedback["text"] = ('Ooops!\n'
                                      f'The right answer is: {self.quiz.currentQuestion.solution}')
         #check if there are more questions left
         if self.quiz.hasNextQuestion():
@@ -83,6 +83,7 @@ class QuizInterface:
         #if not display the result
         else:
             self.displayResult()
+            self.window.destroy()
             
     def buttons(self):
         #show the different buttons
@@ -99,5 +100,4 @@ class QuizInterface:
         correct, incorrect = self.quiz.getResult()
         correct = f"Correct: {correct}"
         incorrect = f"Incorrect: {incorrect}"
-        
         messagebox.showinfo("Result", f"{correct}\n{incorrect}")

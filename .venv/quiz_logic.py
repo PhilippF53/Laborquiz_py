@@ -14,7 +14,7 @@ class QuizLogic:
         #get the next Question from the list and return the Question Text
         self.currentQuestion = self.questions[self.questionnr]
         self.questionnr += 1
-        questionText = self.currentQuestion.question
+        questionText = self.currentQuestion.questionText
         return f"Frage {self.questionnr}: {questionText}"
     
     def checkAnswer(self, userAnswer):
