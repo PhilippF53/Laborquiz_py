@@ -11,10 +11,10 @@ class QuizInterface:
         self.window.title("Laborquiz")
         self.window.geometry("850x530")
         
-        #Creating a canvas for question text, and dsiplay question
+        #Creating a canvas for question text
         self.canvas = Canvas(width=800, height=250)
         self.questionText = self.canvas.create_text(200, 50,
-                                                     text="Question here",
+                                                     text="Question here", #replaced later
                                                      width=680,
                                                      fill=THEME_COLOR,
                                                      font=('Arial', 15, 'italic'))
@@ -30,7 +30,7 @@ class QuizInterface:
 
         #To show whether the answer is correct or wrong
         self.feedback = Label(self.window, pady=10, font=("ariel", 15, "bold"))
-        self.feedback.place(x=300, y=380)
+        self.feedback.place(x=325, y=380)
 
         #Next, Quit and Info Button
         self.buttons()
@@ -72,7 +72,7 @@ class QuizInterface:
         if self.quiz.checkAnswer(self.userAnswer.get()):
             self.feedback["fg"] = "green"
             self.feedback["text"] = 'Correct answer!'
-        elif len(self.userAnswer.get()) == 0:
+        elif len(self.userAnswer.get()) == None:
             self.feedback["fg"] = "yellow"
             self.feedback["text"] = 'Please select an answer'
             exit()
@@ -101,10 +101,10 @@ class QuizInterface:
         nextButton.place(x=350, y=460)
         #initialize the Quit button to exit the App
         quitButton = Button(self.window, text="Quit", command=self.window.destroy, width=5, bg="red", fg="white", font=("ariel", 16, "bold"))
-        quitButton.place(x=700, y=50)
+        quitButton.place(x=20, y=460)
         #initialize Information button
         infoButton = Button(self.window, text="Info", command=self.infoButton, width=5, bg="blue", fg="white", font=("ariel", 16, "bold"))
-        infoButton.place(x=700, y=460)
+        infoButton.place(x=730, y=460)
         
     def displayResult(self):
         #display the result using a messagebox

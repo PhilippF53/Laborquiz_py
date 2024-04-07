@@ -13,6 +13,13 @@
             "solution": "4",
             "incorrect_answers": ["5", "3", "2"],
             "information": "yo mum"
+        },
+        {
+            "mode": "v2",
+            "question": "Was ist 3 + 3?",
+            "solution": "6",
+            "incorrect_answers": ["5", "3", "9"],
+            "information": "yo stoopid retarded dumbass hoe go eat some shit you disgusting wench"
         }
     ]
 }
