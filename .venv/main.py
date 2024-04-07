@@ -1,6 +1,7 @@
 from question_model import Question
 from quiz_logic import QuizLogic
 from quiz_ui import QuizInterface
+from quiz_menu import QuizMenu
 from random import shuffle
 import json
 
@@ -18,6 +19,9 @@ for q in question['question']:
     choices.append(q['solution'])
     shuffle(choices)
     questions.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
+
+#finish by closing the file
+data.close()
     
 """
 questionBank = []
@@ -40,8 +44,10 @@ for quest in question['question']:
     questionBank.append(newQuestion)
 """
 
-#finish by closing the file
-data.close()
+def startQuiz():
+    menu = QuizMenu() 
+    if menu.start:
+        quiz = QuizLogic(questions)
+        quizUI = QuizInterface(quiz)
 
-quiz = QuizLogic(questions)
-quizUI = QuizInterface(quiz)
+startQuiz()

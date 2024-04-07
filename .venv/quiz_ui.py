@@ -1,7 +1,7 @@
 from tkinter import Tk, Canvas, StringVar, Label, Radiobutton, Button, messagebox
 from quiz_logic import QuizLogic
 
-THEME_COLOR = 'green'
+THEME_COLOR = "blue"
 
 class QuizInterface:
 
@@ -13,11 +13,11 @@ class QuizInterface:
         
         #Creating a canvas for question text, and dsiplay question
         self.canvas = Canvas(width=800, height=250)
-        self.questionText = self.canvas.create_text(400, 125,
+        self.questionText = self.canvas.create_text(200, 50,
                                                      text="Question here",
                                                      width=680,
                                                      fill=THEME_COLOR,
-                                                     font=('Ariel', 15, 'italic'))
+                                                     font=('Arial', 15, 'italic'))
         self.canvas.grid(row=2, column=0, columnspan=2, pady=50)
         self.displayQuestion()
 
@@ -32,7 +32,7 @@ class QuizInterface:
         self.feedback = Label(self.window, pady=10, font=("ariel", 15, "bold"))
         self.feedback.place(x=300, y=380)
 
-        #Next and Quit Button
+        #Next, Quit and Info Button
         self.buttons()
 
         #Mainloop
@@ -52,7 +52,7 @@ class QuizInterface:
             radioButton = Radiobutton(self.window, text="", variable=self.userAnswer,
                                     value='', font=("ariel", 14))
             answers.append(radioButton)
-            radioButton.place(x=200, y=yPos)
+            radioButton.place(x=100, y=yPos)
             yPos += 40
         
         return answers
