@@ -24,7 +24,7 @@ for q in question['question']:
 shuffle(questions)
 #finish by closing the file
 data.close()
-    
+
 """
 questionBank = []
 for quest in question['question']:

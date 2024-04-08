@@ -1,13 +1,13 @@
-from tkinter import Tk, Label, Radiobutton, Button, messagebox
+from tkinter import *
 
 class QuizMenu:
-    
     def __init__(self) -> None:
         self.window = Tk()
-        self.window.title("Laborquiz")
+        self.window.title("Quiz Lab")
         self.window.geometry("850x530")
         self.start = False
         
+        self.window.update()
         self.placeTitle()
         self.button()
         self.window.mainloop()
@@ -15,8 +15,8 @@ class QuizMenu:
     #display title of the App    
     def placeTitle(self):
         title = Label(self.window,
-                      text="Laborquiz",
-                      width=45,
+                      text="Quiz Lab",
+                      width=self.window.winfo_reqwidth(),
                       bg="lightblue",
                       fg="black",
                       font=("ariel", 20, "bold"))

@@ -8,7 +8,7 @@ class QuizInterface:
     def __init__(self, quiz_logic: QuizLogic) -> None:
         self.quiz = quiz_logic
         self.window = Tk()
-        self.window.title("Laborquiz")
+        self.window.title("Quiz Lab")
         self.window.geometry("850x530")
         
         #Creating a canvas for question text
@@ -18,10 +18,7 @@ class QuizInterface:
                                                      width=680,
                                                      fill=THEME_COLOR,
                                                      font=('Arial', 15, 'italic'))
-        self.canvas.grid(row=2,
-                         column=0,
-                         columnspan=2,
-                         pady=50)
+        self.canvas.grid(row=2, column=0, columnspan=2, pady=50)
         self.displayQuestion()
 
         #Declare a StringVar to store user's answer
