@@ -20,6 +20,13 @@
             "solution": "6",
             "incorrect_answers": ["5", "3", "9"],
             "information": "Information"
+        },
+        {
+            "mode": "v1",
+            "question":"Eine  27 Jährige Patientin hat folgende Beschwerden: Ständige Müdigkeit, Schwächegefühl und zunehmender Haarausfall.\nDem Patienten wurde eine Blutprobe entnommen und hat folgende Blutwerte:\n\nLeukozyten:\t4.8 x10³ µ/l\nErythrozyten:\t4.6 Mio/µ/l\nHämoglobin\t10.9 g/dl\nThrombozyten\t311 x10³ µ/l\nGlucose:\t\t98 mg/dl\nKreatinin:\t\t0.94 mg/dl\nCholesterin\t179 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "solution": "Eisenmangelanämie",
+            "incorrect_answers": ["Schilddrüsenkrebs", "Diabetes", "Nierenfunktionsstörung"],
+            "information": "Hinweis: Hämoglobinwerte"
         }
     ]
 }

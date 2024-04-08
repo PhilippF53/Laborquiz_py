@@ -9,13 +9,13 @@ class QuizInterface:
         self.quiz = quiz_logic
         self.window = Tk()
         self.window.title("Quiz Lab")
-        self.window.geometry("850x530")
+        self.window.geometry("1700x1060")
         
         #Creating a canvas for question text
-        self.canvas = Canvas(width=800, height=250)
-        self.questionText = self.canvas.create_text(200, 50,
+        self.canvas = Canvas(width=1600, height=500)
+        self.questionText = self.canvas.create_text(800, 150,
                                                      text="Question here", #replaced later
-                                                     width=680,
+                                                     width=1360,
                                                      fill=THEME_COLOR,
                                                      font=('Arial', 15, 'italic'))
         self.canvas.grid(row=2, column=0, columnspan=2, pady=50)
@@ -33,7 +33,7 @@ class QuizInterface:
                               pady=10,
                               font=("ariel", 15, "bold"))
         self.feedback.place(relx=0.5,
-                            y=380,
+                            y=980,
                             anchor="center")
 
         #Next, Quit and Info Button
@@ -49,7 +49,7 @@ class QuizInterface:
     def radioButtons(self):
         #initialize an empty list of answers
         answers = []
-        yPos = 220
+        yPos = 440
         
         #initialize 4 Answer fields
         while (len(answers) < 4):
@@ -79,6 +79,7 @@ class QuizInterface:
         if self.quiz.checkAnswer(self.userAnswer.get()):
             self.feedback["fg"] = "green"
             self.feedback["text"] = 'Correct answer!'
+        #TODO
         elif len(self.userAnswer.get()) == None:
             self.feedback["fg"] = "yellow"
             self.feedback["text"] = 'Please select an answer'
@@ -112,7 +113,7 @@ class QuizInterface:
                             font=("ariel", 16, "bold"))
         #place Button on screen
         nextButton.place(relx=0.50, 
-                         y=460,
+                         y=920,
                          anchor="center")
         #initialize the Quit button to exit the App
         quitButton = Button(self.window,
@@ -123,7 +124,7 @@ class QuizInterface:
                             fg="white",
                             font=("ariel", 16, "bold"))
         quitButton.place(relx=0.1,
-                         y=460,
+                         y=920,
                          anchor="center")
         #initialize Information button
         infoButton = Button(self.window,
@@ -134,7 +135,7 @@ class QuizInterface:
                             fg="white",
                             font=("ariel", 16, "bold"))
         infoButton.place(relx=0.9,
-                         y=460,
+                         y=920,
                          anchor="center")
         
     def displayResult(self):
