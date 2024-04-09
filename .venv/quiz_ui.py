@@ -1,4 +1,4 @@
-from tkinter import Tk, Canvas, StringVar, Label, Radiobutton, Button, messagebox
+from tkinter import Tk, Canvas, StringVar, Label, Radiobutton, Button, messagebox, PhotoImage, Toplevel
 from quiz_logic import QuizLogic
 
 THEME_COLOR = "black"
@@ -21,7 +21,7 @@ class QuizInterface:
                                                      width=1360,
                                                      fill=THEME_COLOR,
                                                      font=('Arial', 15, 'italic'))
-        self.canvas.grid(row=2, column=0, columnspan=2, pady=50)
+        self.canvas.grid(row=2, column=1, columnspan=2, pady=50)
         self.canvas.configure(bg="lightblue", borderwidth=0)
         self.displayQuestion()
 
@@ -87,7 +87,7 @@ class QuizInterface:
             self.feedback["bg"] = "green"
             self.feedback["text"] = 'Richtig!'
         #TODO
-        elif len(self.userAnswer.get()) == None:
+        elif len(self.userAnswer.get()) == 0:
             self.feedback["fg"] = "yellow"
             self.feedback["text"] = 'Please select an answer'
             exit()
@@ -113,6 +113,15 @@ class QuizInterface:
     def infoButton(self):
         info = self.quiz.currentQuestion.information
         messagebox.showinfo("Information", message=f"{info}")
+    
+    def cheatSheet(self):
+        novi = Toplevel()
+        canvas = Canvas(novi, width=1200, height=1000)
+        canvas.pack(expand="yes", fill="both")
+        gif1 = PhotoImage(file = '.venv/spickzettel.png')
+        #image not visual
+        canvas.create_image(50, 10, image = gif1, anchor="nw")
+        canvas.gif1 = gif1
             
     def buttons(self):
         #show the different buttons
@@ -141,7 +150,7 @@ class QuizInterface:
                          anchor="center")
         #initialize Information button
         infoButton = Button(self.window,
-                            text="Tipp",
+                            text="Hinweis",
                             command=self.infoButton,
                             width=10,
                             bg="blue",
@@ -153,7 +162,7 @@ class QuizInterface:
         #initialize cheat sheet button
         cheatSheet = Button(self.window,
                             text="Spickzettel",
-                            command=None,#TODO
+                            command=self.cheatSheet,
                             width=10,
                             bg="blue",
                             fg="white",
