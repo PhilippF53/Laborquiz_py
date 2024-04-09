@@ -6,11 +6,14 @@ class QuizMenu:
         self.window.title("Quiz Lab")
         self.window.geometry("850x530")
         self.start = False
+        self.select = StringVar()
+        #self.drop# = self.modeSelect()
         
         self.window.update_idletasks()
         self.window.update()
         self.placeTitle()
         self.button()
+        self.modeSelect()
         self.window.mainloop()
     
     #display title of the App    
@@ -51,6 +54,21 @@ class QuizMenu:
                             fg="white",
                             font=("ariel", 16, "bold"))
         quitButton.place(relx=0.5,
-                         y=300,
+                         y=400,
                          anchor="center")
+    
+    def callback(select):
+        print(select)
+        return select
+    
+    def modeSelect(self):
+        options = [
+                "Modus 1",
+                "Modus 2",
+                "Modus 3"
+            ]
+        self.select.set(options[0])
             
+        self.drop = OptionMenu(self.window, self.select, *options)
+        self.drop.place(relx=0.5, y=300, anchor="center")
+        

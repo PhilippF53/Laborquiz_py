@@ -15,8 +15,9 @@ class QuizInterface:
         
         #Creating a canvas for question text
         self.canvas = Canvas(width=1700, height=500)
-        self.questionText = self.canvas.create_text(800, 150,
+        self.questionText = self.canvas.create_text(800, 200,
                                                      text="Question here", #replaced later
+                                                     anchor="c",
                                                      width=1360,
                                                      fill=THEME_COLOR,
                                                      font=('Arial', 15, 'italic'))

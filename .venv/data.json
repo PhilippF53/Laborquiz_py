@@ -111,17 +111,6 @@
             "information": "Hinweise: D-Dimer, CRP"
         },
         {
-            "mode": "m1",
-            "question": "",
-            "solution": "Lösung2",
-            "incorrect_answers": [
-                "Antwort1",
-                "Antwort2",
-                "Antwort3"
-            ],
-            "information": "Info2"
-        },
-        {
             "mode": "m2",
             "question": "Welcher Leukozyten-Wert liegt außerhalb des normalen Wertebereichs?",
             "solution": "3.5 x10³ µ/l",
@@ -243,7 +232,7 @@
             "information": "Entweder man weiß es, oder man weiß es nicht."
         },
         {
-            "mode": "v3",
+            "mode": "m3",
             "question": "Welcher Hypochromasie-Prozentwert weicht vom typischen Richtwert ab?",
             "solution": "11.5 %",
             "incorrect_answers": [
