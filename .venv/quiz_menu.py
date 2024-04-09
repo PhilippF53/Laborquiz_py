@@ -56,10 +56,10 @@ class QuizMenu:
         
         info = Label(self.window,
                      text="Spielmodus auswählen:",
+                     width=0,
                      bg="lightblue",
                      fg="black",
-                     font=("ariel", 16)
-                     )
+                     font=("ariel", 16))
         info.place(relx=0.5, y=200, anchor="center")
         
         self.drop = OptionMenu(self.window, self.select, *options)

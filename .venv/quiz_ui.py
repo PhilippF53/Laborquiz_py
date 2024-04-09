@@ -14,15 +14,15 @@ class QuizInterface:
         self.end = False
         
         #Creating a canvas for question text
-        self.canvas = Canvas(width=1700, height=500)
-        self.questionText = self.canvas.create_text(800, 200,
+        self.canvas = Canvas(width=1500, height=500)
+        self.questionText = self.canvas.create_text(50, 200,
                                                      text="Question here", #replaced later
-                                                     anchor="c",
-                                                     width=1360,
+                                                     anchor="w",
+                                                     width=1500,
                                                      fill=THEME_COLOR,
-                                                     font=('Arial', 15, 'italic'))
-        self.canvas.grid(row=2, column=1, columnspan=2, pady=50)
-        self.canvas.configure(bg="lightblue", borderwidth=0)
+                                                     font=('Arial', 16, 'italic'))
+        self.canvas.grid(row=2, column=0, columnspan=2, pady=50, padx=100)
+        self.canvas.configure(bg="lightblue")
         self.displayQuestion()
 
         #Declare a StringVar to store user's answer
@@ -54,7 +54,7 @@ class QuizInterface:
     def radioButtons(self):
         #initialize an empty list of answers
         answers = []
-        yPos = 660
+        yPos = 560
         
         #initialize 4 Answer fields
         while (len(answers) < 4):
@@ -63,10 +63,10 @@ class QuizInterface:
                                       text="", 
                                       variable=self.userAnswer,
                                       value='', 
-                                      font=("ariel", 14))
+                                      font=("ariel", 16))
             answers.append(radioButton)
-            radioButton.place(x=100, y=yPos)
-            yPos += 40
+            radioButton.place(x=200, y=yPos)
+            yPos += 60
         
         return answers
     
@@ -86,11 +86,6 @@ class QuizInterface:
             self.feedback["fg"] = "black"
             self.feedback["bg"] = "green"
             self.feedback["text"] = 'Richtig!'
-        #TODO
-        elif len(self.userAnswer.get()) == 0:
-            self.feedback["fg"] = "yellow"
-            self.feedback["text"] = 'Please select an answer'
-            exit()
         else:
             self.feedback["fg"] = "black"
             self.feedback["bg"] = "red"
