@@ -2,7 +2,7 @@
     "questions": [
         {
             "mode": "m1",
-            "question": "Eine  27 Jährige Patientin hat folgende Beschwerden: Ständige Müdigkeit, Schwächegefühl und zunehmender Haarausfall. \n\tDem Patienten wurde eine Blutprobe entnommen und hat folgende Blutwerte:\n\nLeukozyten:\t\t\t4.8 x10³ µ/l\nErythrozyten:\t\t\t4.6 Mio/µ/l\nHämoglobin:\t\t\t10.9 g/dl\nThrombozyten:\t\t\t311 x10³ µ/l\nGlucose:\t\t\t98 mg/dl\nKreatinin:\t\t\t\t0.94 mg/dl\nCholesterin\t\t\t\t179 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Eine 27 Jährige Patientin hat folgende Beschwerden: Ständige Müdigkeit, Schwächegefühl und zunehmender Haarausfall.\n\tDem Patienten wurde eine Blutprobe entnommen und hat folgende Blutwerte:\n\nLeukozyten:\t\t\t4.8 x10³ µ/l\nErythrozyten:\t\t\t4.6 Mio/µ/l\nHämoglobin:\t\t\t10.9 g/dl\nThrombozyten:\t\t\t311 x10³ µ/l\nGlucose:\t\t\t\t98 mg/dl\nKreatinin:\t\t\t\t0.94 mg/dl\nCholesterin\t\t\t179 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Eisenmangelanämie",
             "incorrect_answers": [
                 "Schilddrüsenkrebs",
@@ -13,7 +13,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 45-jähriger Patient konsultiert seinen Arzt wegen anhaltender Appetitlosigkeit und Müdigkeit. \n\tBei näherer Nachfrage gibt er an, regelmäßig große Mengen Alkohol zu konsumieren. \n\tZusätzlich zeigt sich bei ihm eine gelbliche Verfärbung der Augen und es werden Symptome von Verwirrung und Gedächtnisproblemen festgestellt. \n\tDie Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t\t8,2 x10³ µ/l\nErythrozyten:\t\t\t\t4,8 Mio/µ/l\nHämoglobin:\t\t\t\t14,1 g/dl\nGOT/AST:\t\t\t\t77 U/l\nGPD/ALT:\t\t\t\t85 U/l\nGGT:\t\t\t\t270 U/I\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 45-jähriger Patient konsultiert seinen Arzt wegen anhaltender Appetitlosigkeit und Müdigkeit.\n\tBei näherer Nachfrage gibt er an, regelmäßig große Mengen Alkohol zu konsumieren.\n\tZusätzlich zeigt sich bei ihm eine gelbliche Verfärbung der Augen und es werden Symptome von Verwirrung und Gedächtnisproblemen festgestellt.\n\tDie Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t8,2 x10³ µ/l\nErythrozyten:\t\t\t4,8 Mio/µ/l\nHämoglobin:\t\t\t\t14,1 g/dl\nGOT/AST:\t\t\t\t77 U/l\nGPD/ALT:\t\t\t\t85 U/l\nGGT:\t\t\t\t270 U/I\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Leberzirrhose",
             "incorrect_answers": [
                 "Akute alkoholische Hepatitis",
@@ -24,7 +24,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 56-jähriger Patient sucht seinen Arzt aufgrund nächtlichem Harndrang, Muskelzuckungen, Juckreiz, geschwollenen Beinen und Atemnot auf. \n\tNach einer Untersuchung wird ein Blutbild angefertigt, das folgende Werte aufzeigt:\n\nLeukozyten:\t\t\t\t7,7 x10³ µ/l\nErythrozyten:\t\t\t\t4,8 Mio/µ/l\nHämoglobin:\t\t\t\t4,6 g/dl\nKreatinin:\t\t\t\t1,9 mg/dl\nHarnstoffwerte:\t\t\t\t71 mg/dl\nCholesterin:\t\t\t\t180 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 56-jähriger Patient sucht seinen Arzt aufgrund nächtlichem Harndrang, Muskelzuckungen, Juckreiz, geschwollenen Beinen und Atemnot auf.\n\tNach einer Untersuchung wird ein Blutbild angefertigt, das folgende Werte aufzeigt:\n\nLeukozyten:\t\t\t7,7 x10³ µ/l\nErythrozyten:\t\t\t4,8 Mio/µ/l\nHämoglobin:\t\t\t4,6 g/dl\nKreatinin:\t\t\t\t1,9 mg/dl\nHarnstoffwerte:\t\t\t71 mg/dl\nCholesterin:\t\t\t180 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Niereninsuffizienz",
             "incorrect_answers": [
                 "Eisenmangelanämie",
@@ -35,7 +35,7 @@
         },
         {
             "mode": "m1",
-            "question": "Die 71-jährige Patientin beschreibt dem Arzt Schweißausbrüche sowie Kaltschweiß auf Stirn und Oberlippe. \n\tSie klagt über starke Schmerzen hinter dem Brustbein. Der Arzt bemerkt zusätzlich eine blasse Gesichtsfarbe.\n\nAP:\t\t\t\t69 U/l\nQuick:\t\t\t\t83%\nTroponin:\t\t\t\t0,05 ng/ml\nCK-MB:\t\t\t\t12 ng/ml\nThrombozyten:\t\t\t\t312 x10³ µ/l\nBilirubin Gesamt:\t\t\t\t0,9 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Die 71-jährige Patientin beschreibt dem Arzt Schweißausbrüche sowie Kaltschweiß auf Stirn und Oberlippe. \n\tSie klagt über starke Schmerzen hinter dem Brustbein. Der Arzt bemerkt zusätzlich eine blasse Gesichtsfarbe.\n\nAP:\t\t\t\t69 U/l\nQuick:\t\t\t\t83%\nTroponin:\t\t\t\t0,05 ng/ml\nCK-MB:\t\t\t\t12 ng/ml\nThrombozyten:\t\t\t312 x10³ µ/l\nBilirubin Gesamt:\t\t\t0,9 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "beginnender Myokardinfarkt",
             "incorrect_answers": [
                 "Hepatitis",
@@ -46,7 +46,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 35-jähriger Patient konsultiert seinen Arzt aufgrund von zunehmenden Bauchschmerzen im rechten Unterbauch/Leiste \n\tseit längerer Zeit, begleitet von Verstopfung und Fieber. Eine Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t\t15,4  µ/l\nErythrozyten:\t\t\t\t5.3 Mio/µ/l\nHämoglobin:\t\t\t\t16,5 g/dl\nCRP:\t\t\t\t21,3 mg/l\nBSG:\t\t\t\t26 mm/h\nBilirubin Gesamt:\t\t\t\t0,8 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 35-jähriger Patient konsultiert seinen Arzt aufgrund von zunehmenden Bauchschmerzen im rechten Unterbauch/Leiste \n\tseit längerer Zeit, begleitet von Verstopfung und Fieber. Eine Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t15,4  µ/l\nErythrozyten:\t\t\t5.3 Mio/µ/l\nHämoglobin:\t\t\t16,5 g/dl\nCRP:\t\t\t\t21,3 mg/l\nBSG:\t\t\t\t26 mm/h\nBilirubin Gesamt:\t\t\t0,8 mg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Appendizitis",
             "incorrect_answers": [
                 "Magengeschwür",
@@ -57,7 +57,7 @@
         },
         {
             "mode": "m1",
-            "question": "Eine 22-jährige Veganerin erläutert Symptome wie Sensibilitätsstörungen, Schwindelanfälle, Blässe und anhaltende Müdigkeit. \n\tDie Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t\t9,3 x10³ µ/l\nErythrozyten:\t\t\t\t4,6 Mio/µ/l\nHämoglobin\t\t\t\t13,7 g/dl (F)\nVitamin B12:\t\t\t\t172 pg/mL\nTroponin:\t\t\t\t0,028 ng/ml\nBSG(Blutsenkung):\t\t\t\t18 mm/h\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Eine 22-jährige Veganerin erläutert Symptome wie Sensibilitätsstörungen, Schwindelanfälle, Blässe und anhaltende Müdigkeit. \n\tDie Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t9,3 x10³ µ/l\nErythrozyten:\t\t\t4,6 Mio/µ/l\nHämoglobin\t\t\t13,7 g/dl (F)\nVitamin B12:\t\t\t172 pg/mL\nTroponin:\t\t\t\t0,028 ng/ml\nBSG(Blutsenkung):\t\t\t18 mm/h\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Perniziöse Anämie",
             "incorrect_answers": [
                 "Hepatitis",
@@ -68,7 +68,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 17-jähriger Schüler, der zuhause viele Videospiele spielt, beschwert sich über Symptome wie anhaltende Müdigkeit, \n\tKnochen- und Gelenkschmerzen, Schwäche mit Kraftminderung, Stimmungsschwankungen und Schlafstörungen. \n\tAußerdem sieht man ihm eine Blässe an. Die Blutuntersuchung zeigt folgende Werte:\n\nVitamin D:\t\t\t\t16 ng/mL\nFT3:\t\t\t\t3,72 pmol/l\nFT4:\t\t\t\t16,5 pmol/l\nHarnstoff:\t\t\t\t44,6 mg/dl\nCholesterin:\t\t\t\t155 mg/dl\nBSG(Blutsenkung):\t\t\t\t17 mm/h\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 17-jähriger Schüler, der zuhause viele Videospiele spielt, beschwert sich über Symptome wie anhaltende Müdigkeit, \n\tKnochen- und Gelenkschmerzen, Schwäche mit Kraftminderung, Stimmungsschwankungen und Schlafstörungen. \n\tAußerdem sieht man ihm eine Blässe an. Die Blutuntersuchung zeigt folgende Werte:\n\nVitamin D:\t\t\t16 ng/mL\nFT3:\t\t\t\t3,72 pmol/l\nFT4:\t\t\t\t16,5 pmol/l\nHarnstoff:\t\t\t\t44,6 mg/dl\nCholesterin:\t\t\t155 mg/dl\nBSG(Blutsenkung):\t\t\t17 mm/h\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Vitamin-D-Defizienz",
             "incorrect_answers": [
                 "Myokardinfarkt",
@@ -79,7 +79,7 @@
         },
         {
             "mode": "m1",
-            "question": "Eine 48 jährige Patientin erwähnt bei einem Arzttermin nebenher dass bei ihr Schnittwunden sehr lange brauchen \n\tbis diese aufhören zu bluten und bemerkt während des Zähneputzens des öfteren dass das Zahnfleisch blutet. \n\tDer Patientin wurde eine Blutprobe entnommen, aus der folgender Ausschnitt der Blutwerte resultiert:\n\nKreatinin:\t\t\t\t0,62\nQuick:\t\t\t\t30% \nPTT:\t\t\t\t155\nThrombozyten:\t\t\t\t82\nGlucose:\t\t\t\t94\nCholesterin:\t\t\t\t165\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Eine 48 jährige Patientin erwähnt bei einem Arzttermin nebenher dass bei ihr Schnittwunden sehr lange brauchen \n\tbis diese aufhören zu bluten und bemerkt während des Zähneputzens des öfteren dass das Zahnfleisch blutet. \n\tDer Patientin wurde eine Blutprobe entnommen, aus der folgender Ausschnitt der Blutwerte resultiert:\n\nKreatinin:\t\t\t\t0,62\nQuick:\t\t\t\t30% \nPTT:\t\t\t\t155\nThrombozyten:\t\t\t82\nGlucose:\t\t\t\t94\nCholesterin:\t\t\t165\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Blutgerinnungsstörung ",
             "incorrect_answers": [
                 "Karies",
@@ -90,7 +90,7 @@
         },
         {
             "mode": "m1",
-            "question": "Eine 63 jährige Patientin beklagt sich über übelkeit, erbrechen sowie über Fieber. \n\tMan erkennt deutlich eine gelbfärbung der Haut sowie der Bindehaut. \n\tDer Patientin wurde eine Blutprobe entnommen, aus der folgender Ausschnitt der Blutwerte resultiert:\n\nBilirubin:\t\t\t\t1,9\nGOT/AST:\t\t\t\t112\nGPT/ALT:\t\t\t\t138\n\nAP:\t\t\t\t220\nCRP:\t\t\t\t47\nALB:\t\t\t\t23\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Eine 63 jährige Patientin beklagt sich über übelkeit, erbrechen sowie über Fieber. \n\tMan erkennt deutlich eine gelbfärbung der Haut sowie der Bindehaut. \n\tDer Patientin wurde eine Blutprobe entnommen, aus der folgender Ausschnitt der Blutwerte resultiert:\n\nBilirubin:\t\t\t\t1,9\nGOT/AST:\t\t\t\t112\nGPT/ALT:\t\t\t\t138\nAP:\t\t\t\t220\nCRP:\t\t\t\t47\nALB:\t\t\t\t23\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Hepatitis",
             "incorrect_answers": [
                 "Blutgerinnungsstörung",
