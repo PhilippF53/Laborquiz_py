@@ -72,7 +72,7 @@ def startQuiz():
             questions_mode = []
             quizUI.end = False
 
-startQuiz()
-
 #finish by closing the file
 data.close()
+
+startQuiz()

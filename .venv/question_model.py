@@ -8,6 +8,3 @@ class Question:
         self.solution = solution
         self.choices = choices
         self.information = information
-        
-    def __getitem__(self, index: int) -> str:
-        return index

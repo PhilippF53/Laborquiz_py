@@ -7,8 +7,7 @@ class QuizMenu:
         self.window.geometry("850x530")
         self.start = False
         self.select = StringVar()
-        #self.drop# = self.modeSelect()
-        
+
         self.window.update_idletasks()
         self.window.update()
         self.placeTitle()
@@ -56,10 +55,6 @@ class QuizMenu:
         quitButton.place(relx=0.5,
                          y=400,
                          anchor="center")
-    
-    def callback(select):
-        print(select)
-        return select
     
     def modeSelect(self):
         options = [
