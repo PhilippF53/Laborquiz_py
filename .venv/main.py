@@ -62,7 +62,8 @@ def startQuiz():
                         questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
                     else:
                         continue
-    
+        
+        #start the quiz with the selected mode
         quiz = QuizLogic(questions_mode)
         quizUI = QuizInterface(quiz)
         if quizUI.end:

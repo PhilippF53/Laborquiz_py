@@ -116,7 +116,7 @@ class QuizInterface:
         #show the different buttons
         #first the Next button to move to the next question
         nextButton = Button(self.window, 
-                            text="Next",
+                            text="Weiter",
                             command=self.nextButton,
                             width=10,
                             bg="green",
@@ -128,9 +128,9 @@ class QuizInterface:
                          anchor="center")
         #initialize the Quit button to exit the App
         quitButton = Button(self.window,
-                            text="Quit",
+                            text="Zurück zum Menü",
                             command=self.quitButton,
-                            width=5,
+                            width=15,
                             bg="red",
                             fg="white",
                             font=("ariel", 16, "bold"))
@@ -139,9 +139,9 @@ class QuizInterface:
                          anchor="center")
         #initialize Information button
         infoButton = Button(self.window,
-                            text="Info",
+                            text="Spickzettel",
                             command=self.infoButton,
-                            width=5,
+                            width=10,
                             bg="blue",
                             fg="white",
                             font=("ariel", 16, "bold"))

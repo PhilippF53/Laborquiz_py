@@ -42,11 +42,11 @@ class QuizMenu:
                              fg="black",
                              font=("ariel", 16, "bold"))
         startButton.place(relx=0.5,
-                          y=200,
+                          y=300,
                           anchor="center")
         #initialize the button to end the quiz
         quitButton = Button(self.window,
-                            text="Quit",
+                            text="Beenden",
                             command=self.window.destroy,
                             width=5,
                             bg="red",
@@ -65,5 +65,5 @@ class QuizMenu:
         self.select.set(options[0])
             
         self.drop = OptionMenu(self.window, self.select, *options)
-        self.drop.place(relx=0.5, y=300, anchor="center")
+        self.drop.place(relx=0.5, y=250, anchor="center")
         
