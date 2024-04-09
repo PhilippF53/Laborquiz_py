@@ -37,7 +37,7 @@ class QuizMenu:
         startButton = Button(self.window,
                              text="Start",
                              command=self.startQuiz,
-                             width=5,
+                             width=8,
                              bg="green",
                              fg="black",
                              font=("ariel", 16, "bold"))
@@ -48,7 +48,7 @@ class QuizMenu:
         quitButton = Button(self.window,
                             text="Beenden",
                             command=self.window.destroy,
-                            width=5,
+                            width=8,
                             bg="red",
                             fg="white",
                             font=("ariel", 16, "bold"))
@@ -63,7 +63,15 @@ class QuizMenu:
                 "Modus 3"
             ]
         self.select.set(options[0])
-            
+        
+        info = Label(self.window,
+                     text="Spielmodus auswählen:",
+                     bg="lightblue",
+                     fg="black",
+                     font=("ariel", 16)
+                     )
+        info.place(relx=0.5, y=200, anchor="center")
+        
         self.drop = OptionMenu(self.window, self.select, *options)
         self.drop.place(relx=0.5, y=250, anchor="center")
         
