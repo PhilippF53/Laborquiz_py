@@ -10,6 +10,7 @@ class QuizMenu:
 
         self.window.update_idletasks()
         self.window.update()
+        self.window.configure(bg="lightblue")
         self.placeTitle()
         self.button()
         self.modeSelect()

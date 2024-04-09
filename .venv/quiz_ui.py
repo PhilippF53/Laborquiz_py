@@ -83,17 +83,19 @@ class QuizInterface:
     def nextButton(self):
         #check if answer is correct
         if self.quiz.checkAnswer(self.userAnswer.get()):
-            self.feedback["fg"] = "green"
-            self.feedback["text"] = 'Correct answer!'
+            self.feedback["fg"] = "black"
+            self.feedback["bg"] = "green"
+            self.feedback["text"] = 'Richtig!'
         #TODO
         elif len(self.userAnswer.get()) == None:
             self.feedback["fg"] = "yellow"
             self.feedback["text"] = 'Please select an answer'
             exit()
         else:
-            self.feedback["fg"] = "red"
-            self.feedback["text"] = ('Ooops!\n'
-                                     f'The right answer is: {self.quiz.currentQuestion.solution}')
+            self.feedback["fg"] = "black"
+            self.feedback["bg"] = "red"
+            self.feedback["text"] = ('Falsch!\n'
+                                     f'Die richtige Antwort war: {self.quiz.currentQuestion.solution}')
         #check if there are more questions left
         if self.quiz.hasNextQuestion():
             self.displayQuestion()
@@ -139,7 +141,7 @@ class QuizInterface:
                          anchor="center")
         #initialize Information button
         infoButton = Button(self.window,
-                            text="Spickzettel",
+                            text="Tipp",
                             command=self.infoButton,
                             width=10,
                             bg="blue",
@@ -147,6 +149,17 @@ class QuizInterface:
                             font=("ariel", 16, "bold"))
         infoButton.place(relx=0.9,
                          y=920,
+                         anchor="center")
+        #initialize cheat sheet button
+        cheatSheet = Button(self.window,
+                            text="Spickzettel",
+                            command=None,#TODO
+                            width=10,
+                            bg="blue",
+                            fg="white",
+                            font=("ariel", 16, "bold"))
+        cheatSheet.place(relx=0.9,
+                         y=880,
                          anchor="center")
         
     def displayResult(self):

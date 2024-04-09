@@ -26,7 +26,7 @@ shuffle(questions)
 """
 
 def startQuiz():
-    menu = QuizMenu() 
+    menu = QuizMenu()
     questions_mode = []
     while menu.start:
         #seperate questions by mode
