@@ -7,6 +7,7 @@ class QuizMenu:
         self.window.geometry("850x530")
         self.start = False
         
+        self.window.update_idletasks()
         self.window.update()
         self.placeTitle()
         self.button()
@@ -52,5 +53,4 @@ class QuizMenu:
         quitButton.place(relx=0.5,
                          y=300,
                          anchor="center")
-        
-    
+            

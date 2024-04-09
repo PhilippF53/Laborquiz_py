@@ -1,7 +1,7 @@
 from tkinter import Tk, Canvas, StringVar, Label, Radiobutton, Button, messagebox
 from quiz_logic import QuizLogic
 
-THEME_COLOR = "blue"
+THEME_COLOR = "black"
 
 class QuizInterface:
 
@@ -10,15 +10,18 @@ class QuizInterface:
         self.window = Tk()
         self.window.title("Quiz Lab")
         self.window.geometry("1700x1060")
+        self.window.configure(bg="lightblue")
+        self.end = False
         
         #Creating a canvas for question text
-        self.canvas = Canvas(width=1600, height=500)
+        self.canvas = Canvas(width=1700, height=500)
         self.questionText = self.canvas.create_text(800, 150,
                                                      text="Question here", #replaced later
                                                      width=1360,
                                                      fill=THEME_COLOR,
                                                      font=('Arial', 15, 'italic'))
         self.canvas.grid(row=2, column=0, columnspan=2, pady=50)
+        self.canvas.configure(bg="lightblue", borderwidth=0)
         self.displayQuestion()
 
         #Declare a StringVar to store user's answer
@@ -30,6 +33,7 @@ class QuizInterface:
 
         #To show whether the answer is correct or wrong
         self.feedback = Label(self.window,
+                              bg="lightblue",
                               pady=10,
                               font=("ariel", 15, "bold"))
         self.feedback.place(relx=0.5,
@@ -49,11 +53,12 @@ class QuizInterface:
     def radioButtons(self):
         #initialize an empty list of answers
         answers = []
-        yPos = 440
+        yPos = 660
         
         #initialize 4 Answer fields
         while (len(answers) < 4):
             radioButton = Radiobutton(self.window, 
+                                      bg="lightblue",
                                       text="", 
                                       variable=self.userAnswer,
                                       value='', 
@@ -95,7 +100,12 @@ class QuizInterface:
         #if not display the result
         else:
             self.displayResult()
+            self.end = True
             self.window.destroy()
+    
+    def quitButton(self):
+        self.end = True
+        self.window.destroy()
     
     def infoButton(self):
         info = self.quiz.currentQuestion.information
@@ -118,7 +128,7 @@ class QuizInterface:
         #initialize the Quit button to exit the App
         quitButton = Button(self.window,
                             text="Quit",
-                            command=self.window.destroy,
+                            command=self.quitButton,
                             width=5,
                             bg="red",
                             fg="white",

@@ -25,31 +25,14 @@ shuffle(questions)
 #finish by closing the file
 data.close()
 
-"""
-questionBank = []
-for quest in question['question']:
-    #build the question
-    choices = []
-    mode = quest['mode']
-    questionText = quest['question']
-    solution = quest['solution']
-    incorrect_answers = quest['incorrect_answers']
-    information = quest['information']
-    #build the choices
-    for ans in incorrect_answers:
-        choices.append(ans)
-    choices.append(solution)
-    
-    #randomize the order of the answers
-    shuffle(choices)
-    newQuestion = Question(mode, question, solution, choices, information)
-    questionBank.append(newQuestion)
-"""
-
 def startQuiz():
     menu = QuizMenu() 
-    if menu.start:
+    while menu.start:
         quiz = QuizLogic(questions)
         quizUI = QuizInterface(quiz)
+        if quizUI.end:
+            menu.start = False
+            menu = QuizMenu()
+            quizUI.end = False
 
 startQuiz()
