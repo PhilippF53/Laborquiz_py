@@ -6,10 +6,10 @@ class QuizLogic:
         self.questions = questions
         self.currentQuestion = self.questions[self.questionnr]
     
-    def hasNextQuestion(self):
+    def next_question(self):
         #Check if another Question is in the Quiz
         return self.questionnr < len(self.questions)
-    
+
     def nextQuestion(self):
         #get the next Question from the list and return the Question Text
         self.currentQuestion = self.questions[self.questionnr]

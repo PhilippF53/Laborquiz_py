@@ -24,55 +24,34 @@ for q in question['questions']:
 shuffle(questions)
 """
 
+
 def startQuiz():
     menu = QuizMenu()
     questions_mode = []
     while menu.start:
-        #seperate questions by mode
+        selected_mode = menu.selected_option.get()
         for q in question['questions']:
-            match menu.select.get():
-                case "Modus 1":
-                    if q['mode'] == "m1":
-                        choices=[]
-                        for ans in q['incorrect_answers']:
-                            choices.append(ans)
-                        choices.append(q['solution'])
-                        shuffle(choices)
-                        questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
-                    else:
-                        continue
-                case "Modus 2":
-                    if q['mode'] == "m2":
-                        choices=[]
-                        for ans in q['incorrect_answers']:
-                            choices.append(ans)
-                        choices.append(q['solution'])
-                        shuffle(choices)
-                        questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
-                    else:
-                        continue
-                case "Modus 3":
-                    if q['mode'] == "m3":
-                        choices=[]
-                        for ans in q['incorrect_answers']:
-                            choices.append(ans)
-                        choices.append(q['solution'])
-                        shuffle(choices)
-                        questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
-                    else:
-                        continue
-        
-        #start the quiz with the selected mode
+            if selected_mode == "Modus 1" and q['mode'] == "m1":
+                choices = q['incorrect_answers'] + [q['solution']]
+                shuffle(choices)
+                questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
+            elif selected_mode == "Modus 2" and q['mode'] == "m2":
+                choices = q['incorrect_answers'] + [q['solution']]
+                shuffle(choices)
+                questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
+            elif selected_mode == "Modus 3" and q['mode'] == "m3":
+                choices = q['incorrect_answers'] + [q['solution']]
+                shuffle(choices)
+                questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
+
         quiz = QuizLogic(questions_mode)
         quizUI = QuizInterface(quiz)
         if quizUI.end:
-            print(menu.select.get())
+            print(selected_mode)
             menu.start = False
             menu = QuizMenu()
             questions_mode = []
-            quizUI.end = False
 
-#finish by closing the file
-data.close()
+    data.close()
 
 startQuiz()
