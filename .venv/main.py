@@ -13,14 +13,13 @@ question = json.load(data)
 #initialize List and fill it with Question Objects
 questions = []
 for q in question['questions']:
-#    print(q)
+    print(q)
     choices=[]
     for ans in q['incorrect_answers']:
         choices.append(ans)
     choices.append(q['solution'])
     shuffle(choices)
     questions.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
-
 #randomize order of questions
 shuffle(questions)
 """

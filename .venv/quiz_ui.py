@@ -20,7 +20,7 @@ class QuizInterface:
                                                      anchor="w",
                                                      width=1500,
                                                      fill=THEME_COLOR,
-                                                     font=('Arial', 16, 'italic'))
+                                                     font=('Arial', 18, 'italic'))
         self.canvas.grid(row=2, column=0, columnspan=2, pady=50, padx=100)
         self.canvas.configure(bg="lightblue")
         self.displayQuestion()
