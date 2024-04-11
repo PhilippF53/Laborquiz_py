@@ -13,7 +13,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 45-jähriger Patient konsultiert seinen Arzt wegen anhaltender Appetitlosigkeit und Müdigkeit.\nBei näherer Nachfrage gibt er an, regelmäßig große Mengen Alkohol zu konsumieren.\nZusätzlich zeigt sich bei ihm eine gelbliche Verfärbung der Augen und es werden Symptome von Verwirrung und \nGedächtnisproblemen festgestellt.\nDie Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t8,2 x10³ µ/l\nErythrozyten:\t\t\t4,8 Mio/µ/l\nHämoglobin:\t\t\t14,1 g/dl\nGOT/AST:\t\t\t\t77 U/l\nGPD/ALT:\t\t\t\t85 U/l\nGGT:\t\t\t\t270 U/I\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 45-jähriger Patient konsultiert seinen Arzt wegen anhaltender Appetitlosigkeit und Müdigkeit.\nBei näherer Nachfrage gibt er an, regelmäßig große Mengen Alkohol zu konsumieren.\nZusätzlich zeigt sich bei ihm eine gelbliche Verfärbung der Augen und es werden Symptome von Verwirrung und \nGedächtnisproblemen festgestellt.\nDie Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t8,2 x10³ µ/l\nErythrozyten:\t\t\t4,8 Mio/µ/l\nHämoglobin:\t\t\t14,1 g/dl\nGOT/AST:\t\t\t77 U/l\nGPD/ALT:\t\t\t85 U/l\nGGT:\t\t\t\t270 U/I\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Leberzirrhose",
             "incorrect_answers": [
                 "Blinddarmentzündung",
@@ -68,7 +68,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 17-jähriger Schüler, der zuhause viele Videospiele spielt, beschwert sich über Symptome wie anhaltende Müdigkeit,\nKnochen- und Gelenkschmerzen, Schwäche mit Kraftminderung, Stimmungsschwankungen und Schlafstörungen.\nAußerdem sieht man ihm eine Blässe an. \nDie Blutuntersuchung zeigt folgende Werte:\n\nVitamin D:\t\t\t16 ng/mL\nFT3:\t\t\t\t3,72 pmol/l\nFT4:\t\t\t\t16,5 pmol/l\nHarnstoff:\t\t\t\t44,6 mg/dl\nCholesterin:\t\t\t155 mg/dl\nBSG(Blutsenkung):\t\t\t17 mm/h\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 17-jähriger Schüler, der zuhause viele Videospiele spielt, beschwert sich über Symptome wie anhaltende Müdigkeit,\nKnochen- und Gelenkschmerzen, Schwäche mit Kraftminderung, Stimmungsschwankungen und Schlafstörungen.\nAußerdem sieht man ihm eine Blässe an. \nDie Blutuntersuchung zeigt folgende Werte:\n\nVitamin D:\t\t\t16 ng/mL\nFT3:\t\t\t\t3,72 pmol/l\nFT4:\t\t\t\t16,5 pmol/l\nHarnstoff:\t\t\t44,6 mg/dl\nCholesterin:\t\t\t155 mg/dl\nBSG(Blutsenkung):\t\t\t17 mm/h\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Vitamin-D-Defizienz",
             "incorrect_answers": [
                 "Myokardinfarkt",
@@ -90,7 +90,7 @@
         },
         {
             "mode": "m1",
-            "question": "Eine 63 jährige Patientin beklagt sich über übelkeit, erbrechen sowie über Fieber.\nMan erkennt deutlich eine gelbfärbung der Haut sowie der Bindehaut.\nDer Patientin wurde eine Blutprobe entnommen, aus der folgender Ausschnitt der Blutwerte resultiert:\n\nBilirubin:\t\t\t\t1,9 mg/dl\nGOT/AST:\t\t\t\t112 U/l\nGPT/ALT:\t\t\t\t138 U/l\nAP:\t\t\t\t220 U/l\nCRP:\t\t\t\t47 mg/l\nALB:\t\t\t\t23 g/l\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Eine 63 jährige Patientin beklagt sich über übelkeit, erbrechen sowie über Fieber.\nMan erkennt deutlich eine gelbfärbung der Haut sowie der Bindehaut.\nDer Patientin wurde eine Blutprobe entnommen, aus der folgender Ausschnitt der Blutwerte resultiert:\n\nBilirubin:\t\t\t\t1,9 mg/dl\nGOT/AST:\t\t\t112 U/l\nGPT/ALT:\t\t\t138 U/l\nAP:\t\t\t\t220 U/l\nCRP:\t\t\t\t47 mg/l\nALB:\t\t\t\t23 g/l\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Hepatitis",
             "incorrect_answers": [
                 "Blutgerinnungsstörung",
@@ -112,7 +112,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 19-jähriger Patient meldet sich beim Arzt und klagt über Juckreiz, Hautausschlag, Magen-Darm-Probleme, Schnupfen, Husten und tränende Augen.\nDie Blutuntersuchung zeigt den folgenden Ausschnitt der Werte:\n\nGGT:\t\t\t53 U/l\nCRP:\t\t\t5,6 mg/l\nIgE:. \t\t\t20 IU/ml\nBSG: \t\t\t15 mm/h\nBasophile:\t\t0,3%\nQuick:\t\t\t79%\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 19-jähriger Patient meldet sich beim Arzt und klagt über Juckreiz, Hautausschlag, Magen-Darm-Probleme, Schnupfen,\nHusten und tränende Augen.\nDie Blutuntersuchung zeigt den folgenden Ausschnitt der Werte:\n\nGGT:\t\t\t\t53 U/l\nCRP:\t\t\t\t5,6 mg/l\nIgE:. \t\t\t\t20 IU/ml\nBSG: \t\t\t\t15 mm/h\nBasophile:\t\t\t0,3%\nQuick:\t\t\t\t79%\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Allergie",
             "incorrect_answers": [
                 "Windpocken",
@@ -123,7 +123,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 21-jähriger Patient bemerkt, dass er nicht an Körpergewicht zunehmen kann, vermehrt unter Durchfall und an Schlafstörungen leidet. Durch die Verwendung einer Manschette wurde auch ein Bluthochdruck erkannt.\nDie Blutuntersuchung zeigt den folgenden Ausschnitt der Werte:\n\nTroponin:\t\t\t0,024 ng/ml\nTSH: \t\t\t0,12 mU/l\nFT3: \t\t\t10,67 pmol/l\nFT4: \t\t\t34,8 pmol/l\nGlucose: \t\t\t110 mg/dl\nCortisol: \t\t\t10,7 µg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 21-jähriger Patient bemerkt, dass er nicht an Körpergewicht zunehmen kann, vermehrt unter Durchfall und an\nSchlafstörungen leidet. Durch die Verwendung einer Manschette wurde auch ein Bluthochdruck erkannt.\nDie Blutuntersuchung zeigt den folgenden Ausschnitt der Werte:\n\nTroponin:\t\t\t\t0,024 ng/ml\nTSH: \t\t\t\t0,12 mU/l\nFT3: \t\t\t\t10,67 pmol/l\nFT4: \t\t\t\t34,8 pmol/l\nGlucose: \t\t\t\t110 mg/dl\nCortisol: \t\t\t\t10,7 µg/dl\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Schilddrüsenüberfunktion ",
             "incorrect_answers": [
                 "Parasiten",
@@ -134,7 +134,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 63-jähriger Patient klagt bei seinem Hausarzt über ständige Müdigkeit, Antriebsschwäche, Verstopfung, \nGewichtszunahme sowie Haar- und Hautveränderungen.\nDie Blutuntersuchung zeigt den folgenden Ausschnitt der Werte:\n\nVitamin B12:\t\t298 pg/ml\nTSH: \t\t\t8,56 mU/l\nFT3: \t\t\t1,45 pmol/l\nFT4: \t\t\t4,9 pmol/l\nCA 19/9:\t\t\t22 U/ml\nPTT:\t\t\t34 sec\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 63-jähriger Patient klagt bei seinem Hausarzt über ständige Müdigkeit, Antriebsschwäche, Verstopfung, \nGewichtszunahme sowie Haar- und Hautveränderungen.\nDie Blutuntersuchung zeigt den folgenden Ausschnitt der Werte:\n\nVitamin B12:\t\t\t298 pg/ml\nTSH: \t\t\t\t8,56 mU/l\nFT3: \t\t\t\t1,45 pmol/l\nFT4: \t\t\t\t4,9 pmol/l\nCA 19/9:\t\t\t\t22 U/ml\nPTT:\t\t\t\t34 sec\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Schilddrüsenunterfunktion",
             "incorrect_answers": [
                 "Depressionen",
@@ -145,7 +145,7 @@
         },
         {
             "mode": "m1",
-            "question": "Eine 28-jährige Patientin schildert ihrem Arzt Symptome wie Fieber mit Schüttelfrost, Herzrasen, feuchte Haut und kalte Extremitäten sowie Schwitzen und Grippesymptome.\nEs wurde eine Blutprobe entnommen, aus der der folgende Ausschnitt der Blutwerte resultiert:\n\nLeukozyten:\t\t5,6 x10³ µ/l\nErythrozyten:\t\t4,4 Mio/µ/l\nThrombozyten:\t\t219 x10³ µ/l\nPCT: \t\t\t4,7 ng/ml\nBSG: \t\t\t37 mm/h\nCRP: \t\t\t70,0 mg/l\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Eine 28-jährige Patientin schildert ihrem Arzt Symptome wie Fieber mit Schüttelfrost, Herzrasen, feuchte Haut und kalte Extremitäten sowie Schwitzen und Grippesymptome.\nEs wurde eine Blutprobe entnommen, aus der der folgende Ausschnitt der Blutwerte resultiert:\n\nLeukozyten:\t\t\t5,6 x10³ µ/l\nErythrozyten:\t\t\t4,4 Mio/µ/l\nThrombozyten:\t\t\t219 x10³ µ/l\nPCT: \t\t\t\t4,7 ng/ml\nBSG: \t\t\t\t37 mm/h\nCRP: \t\t\t\t70,0 mg/l\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Sepsis",
             "incorrect_answers": [
                 "Influenza A",
@@ -156,7 +156,7 @@
         },
         {
             "mode": "m1",
-            "question": "Ein 55-jähriger Patient erläutert seinem Arzt häufigen Harndrang, kaum Urinausscheidung, blutigen Urin und \nSchmerzen im unteren Rücken.\nEs wurde eine Blutprobe entnommen, aus der der folgende Ausschnitt der Blutwerte resultiert:\n\nPSA: \t\t\t12,3 ng/ml\nCRP:\t\t\t1,6 mg/l\nKreatinin:\t\t\t0,97 mg/dl\nHarnstoff: \t\t48,1 mg/dl\nGlucose:\t\t\t87 mg/dl\nVitamin D:\t\t23 ng/mL\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
+            "question": "Ein 55-jähriger Patient erläutert seinem Arzt häufigen Harndrang, kaum Urinausscheidung, blutigen Urin und \nSchmerzen im unteren Rücken.\nEs wurde eine Blutprobe entnommen, aus der der folgende Ausschnitt der Blutwerte resultiert:\n\nPSA: \t\t\t\t12,3 ng/ml\nCRP:\t\t\t\t1,6 mg/l\nKreatinin:\t\t\t\t0,97 mg/dl\nHarnstoff: \t\t\t48,1 mg/dl\nGlucose:\t\t\t\t87 mg/dl\nVitamin D:\t\t\t23 ng/mL\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Prostatakarzinom",
             "incorrect_answers": [
                 "Harnwegsinfekt",
