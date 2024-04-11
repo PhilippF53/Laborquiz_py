@@ -16,7 +16,7 @@
             "question": "Ein 45-jähriger Patient konsultiert seinen Arzt wegen anhaltender Appetitlosigkeit und Müdigkeit.\nBei näherer Nachfrage gibt er an, regelmäßig große Mengen Alkohol zu konsumieren.\nZusätzlich zeigt sich bei ihm eine gelbliche Verfärbung der Augen und es werden Symptome von Verwirrung und \nGedächtnisproblemen festgestellt.\nDie Blutuntersuchung zeigt folgende Werte:\n\nLeukozyten:\t\t\t8,2 x10³ µ/l\nErythrozyten:\t\t\t4,8 Mio/µ/l\nHämoglobin:\t\t\t14,1 g/dl\nGOT/AST:\t\t\t\t77 U/l\nGPD/ALT:\t\t\t\t85 U/l\nGGT:\t\t\t\t270 U/I\n\nWelche mögliche Diagnose könnte sich anhand dieser Befunde ableiten lassen?",
             "solution": "Leberzirrhose",
             "incorrect_answers": [
-                "Akute alkoholische Hepatitis",
+                "Blinddarmentzündung",
                 "Chronische Pankreatitis",
                 "Gallensteine"
             ],

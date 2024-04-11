@@ -30,8 +30,8 @@ def startQuiz():
     while menu.start:
         #seperate questions by mode
         for q in question['questions']:
-            match menu.select.get():
-                case "Modus 1":
+            match menu.selected_option.get():
+                case "Erkenne die Diagnose":
                     if q['mode'] == "m1":
                         choices=[]
                         for ans in q['incorrect_answers']:
@@ -41,7 +41,7 @@ def startQuiz():
                         questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
                     else:
                         continue
-                case "Modus 2":
+                case "Blutbildwerte eingrenzen":
                     if q['mode'] == "m2":
                         choices=[]
                         for ans in q['incorrect_answers']:
@@ -51,7 +51,7 @@ def startQuiz():
                         questions_mode.append(Question(q['mode'], q['question'], q['solution'], choices, q['information']))
                     else:
                         continue
-                case "Modus 3":
+                case "Errate den Marker":
                     if q['mode'] == "m3":
                         choices=[]
                         for ans in q['incorrect_answers']:
@@ -66,7 +66,7 @@ def startQuiz():
         quiz = QuizLogic(questions_mode)
         quizUI = QuizInterface(quiz)
         if quizUI.end:
-            print(menu.select.get())
+            print(menu.selected_option.get())
             menu.start = False
             menu = QuizMenu()
             questions_mode = []
